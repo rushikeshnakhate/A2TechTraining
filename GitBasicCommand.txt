@@ -1,0 +1,35 @@
+
+install Git 
+Luach It 
+Find Out u r current Direcotry ( pwd )
+
+get all the code froM GIT 
+	git clone https://github.com/rushikeshnakhate/A2TechTraining.git
+	
+Edit File Using IDE ( Subline Text ) - Save 
+
+Which Git Command to use to confirm what files are changed
+		git staus 
+
+Which Git Command to use to get the log
+ 		git log
+
+Which Git Command to add the file to Git 
+	git add *
+	Or 
+	git add FileNameTobeChnaged
+
+Which Git Command to commit the chages to Repository
+	git commit -m "Commit message- in Detail "
+
+Which Git Command to push the chanegs to Remote Repository
+	git push 
+
+
+In case iF git  Aasked you set Email ID 
+	 git config --global user.email umathesupriya@gmail.com
+
+
+
+
+
