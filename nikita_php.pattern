@@ -1,0 +1,37 @@
+<?php
+  echo "<pre>";
+$num= 10;
+for ($i = 0; $i <= 10; $i++) {
+     
+ for ($j = 0; $j < $num; $j++) {
+        echo "&nbsp;";
+    }
+    for ($j = 0; $j < 2 * $i - 1; $j++) {
+        echo "*";
+    }
+     
+    $num--;
+    echo "<br/>";
+}
+echo "</pre>";
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
