@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+<form>
+ Enter username : <input type="text" name="username" ><br><br>
+ Enter password : <input type="password" name="password"><br><br>
+ <input type="Submit" value="Login">
+
+</form>	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
