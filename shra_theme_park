@@ -1,0 +1,39 @@
+
+
+
+
+
+<?php
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$Dbname="shrawani";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $Dbname);
+$park_code=$_POST['park_code'];
+$park_name=$_POST['park_name'];
+$park_city=$_POST['park_city'];
+$park_counter=$_POST['park_counter'];
+
+
+$sql = "INSERT INTO theme_park(park_code,park_name,park_city,park_counter)
+VALUES ('".$park_code."', '".$park_name."', '".$park_city."','".$park_counter."')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully</br>";
+
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+
+
+
+echo "your park_code=$park_code
+	Your park_name=$park_name</br>
+	Your park_city=$park_city</br>
+	Your park_counter=$park_counter
+";
+?>
