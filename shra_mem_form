@@ -1,0 +1,31 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+<form action="shramem.php" method="post">
+	username:<input type="text" name="name"><br/>
+	sign_up_date:<input type="text" name="date">
+	Email:<input type="text" name="email"><br/>
+	bio:<input type="text" name="bio">
+	account_permission:<input type="text" name="permission"><br/>
+	email_activation:<input type="text" name="activation"><br/>
+
+	<input type="submit"/>
+</form>
+</body>
+</html>
+<<?php
+
+
+
+
+
+ ?>
+
+
