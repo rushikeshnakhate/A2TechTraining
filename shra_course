@@ -1,0 +1,33 @@
+
+
+
+<?php
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$Dbname="t_course";
+
+
+$conn = new mysqli($servername, $username, $password, $Dbname);
+$course_name=$_POST['yname'];
+
+
+
+
+$sql = "INSERT INTO courses (course_name,created,modified)
+VALUES ('".$course_name."', now(),now())";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully</br>";
+
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+
+
+
+?>
+
+
