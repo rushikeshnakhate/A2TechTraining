@@ -1,0 +1,57 @@
+
+THEMEPARK.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Themepark Form</title>
+</head>
+<body>
+<form action="theme.php" method="post"><br><br>
+      Park_Code:<input type="text" name="Park_code"><br><br>
+      Park_Name:<input type="text" name="Park_Name"><br><br>
+      Park_City:<input type="text" name="Park_City"><br><br>
+      Park_Country:<input type="text" name="Park_Country">
+     <input type="submit"/>
+</form>
+</body>
+</html>
+
+
+
+THEMEPARK.PHP
+
+<?php
+
+$servername="localhost";
+$username="root";
+$password="";
+$Dbname="Theme_park_db";
+//create connection
+$conn=new mysqli($servername, $username, $password, $Dbname);
+
+$Park_Code=$_POST['Park_Code'];
+$Park_Name=$_POST['Park_Name'];
+$Park_City=$_POST['Park_City'];
+$Park_Country=$_POST['Park_Country'];
+
+$sql= "INSERT INTO theme_park(Park_Code, Park_Name, Park_City, Park_Country) Values('".$Park_Code."', '".$Park_Name."', '".$Park_City."', '".$Park_Country."')";
+
+if($conn->query($sql)=== TRUE){
+	echo "New record created successfully</br>";}
+else{
+	echo "Error:" .$sql. "<br>". $conn->error;
+}
+
+echo "Park_Code=$Park_Code<br>
+      Park_Name=$Park_Name<br>
+      Park_City=W$Park_City<br>
+      Park_Country=$Park_Country<br>
+      "
+      ;
+
+
+
+ ?>
+
+
