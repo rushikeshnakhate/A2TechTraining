@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<form action="ticket.php" method="post"><br><br>
+	TICKET_NO : <input type="text" name="ET_NO" ><br><br>	
+	TICKET_PRICE : <input type="text" name="ET_PRICE" ><br><br>
+	TICKET_TYPE : <input type="text" name="ET_TYPE" ><br><br>
+	PARK_CODE : <input type="text" name="RK_CODE" ><br><br>
+	<input type="Submit" value="Submit">
+		
+	</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
