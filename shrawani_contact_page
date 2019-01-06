@@ -1,0 +1,127 @@
+
+
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+
+	<title>KaiseApp Messenger</title>
+	<script>
+		$(document).ready(function(){
+			$('.grid').masonry({
+				itemSelector: '.grid-item',
+				columnWidth: '.grid-sizer',
+				percentPosition: true,
+				horizontalOrder: true
+			});
+		})
+	</script>
+	<style>
+		.grid-item-content {
+			margin-top:1%;
+			padding:5% 1%;
+			overflow-y:hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+			<div class="col-sm-12">
+				<nav class="navbar navbar-expand-sm fixed-top rounded navbar-dark" style="background:rgba(234,28,37,0.90);min-height:80px">
+
+					<div class="container" style="padding: 10px;">
+
+
+						<a class="navbar-brand" href="index.html"><img src="img/kaise copy.png" alt="logo"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item active" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="index.html" style="font-size: 1.1em !important; color: black">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="features.html" style="font-size: 1.1em !important; color: black;">Features</a>
+							</li>
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="blog.php" style="font-size: 1.1em !important; color: black;">Blog</a>
+							</li>
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="faq.html" style="font-size: 1.1em !important; color: black;">FAQ</a>
+							</li>
+
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="contact.html" style="font-size: 1.1em !important; color: black;">Contact US</a>
+							</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	<div style="min-height:80px"></div>
+
+	<div style="min-height:80px; background-color: yellow;"></div>
+
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-12 mt-3" >
+				<div class="card shadow-sm">
+
+					<div class="card-body" style="color: green">
+
+						<h2>Contact Kaise App</h2>
+						<p style="color: blue">
+								To better assist you, contact us from your phone by opening KaiseApp > Settings > Help > Contact Us. You can also visit our FAQs for additional information.
+						</p>
+						<p>
+							<h5>Email:- info@kaiseapp.com</h4>
+							<h5>Number:- 99887 55446</h4>
+						</p>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<section id="footer" style="background:black;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Company name</a> Design by <a class="text-green ml-2" href="http://techdesire.net/" target="_blank">TechDesire</a> </p>
+				</div>
+				</hr>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
