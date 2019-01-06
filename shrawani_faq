@@ -1,0 +1,192 @@
+
+
+
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+
+	<title>KaiseApp Messenger</title>
+	<script>
+		$(document).ready(function(){
+			$('.grid').masonry({
+				itemSelector: '.grid-item',
+				columnWidth: '.grid-sizer',
+				percentPosition: true,
+				horizontalOrder: true
+			});
+		})
+	</script>
+	<style>
+		.grid-item-content {
+			margin-top:1%;
+			padding:5% 1%;
+			overflow-y:hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+			<div class="col-sm-12">
+				<nav class="navbar navbar-expand-sm fixed-top rounded navbar-dark" style="background:rgba(72, 201, 176  );min-height:80px">
+
+					<div class="container" style="padding: 10px;">
+
+
+						<a class="navbar-brand" href="index.html"><img src="img/kaise copy.png" alt="logo"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item active" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="index.html" style="font-size: 1.1em !important; color: black">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="features.html" style="font-size: 1.1em !important; color: black;">Features</a>
+							</li>
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="blog.php" style="font-size: 1.1em !important; color: black;">Blog</a>
+							</li>
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="faq.html" style="font-size: 1.1em !important; color: black;">FAQ</a>
+							</li>
+
+							<li class="nav-item" style="padding-right:35px;">
+								<a class="nav-link font-weight-bold" href="contact.html" style="font-size: 1.1em !important; color: black;">Contact US</a>
+							</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	<div style="min-height:80px ; "></div>
+	<div lassc="container">
+		<div class="row">
+			<div class="col s12">
+				<ul class="">
+					<li><a style="color: red;" href="#question1">Move To Question 1</a></li>
+					<li><a href="#question2">Move To Question 2</a></li>
+					<li><a href="#question3">Move To Question 3</a></li>
+					<li><a href="#question4">Move To Question 4</a></li>
+					<li><a href="#question5">Move To Question 5</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-12 mt-3" id="question1">
+				<div class="card shadow-sm">
+					<div class="card-header" style="color: red">Question 1. Download and Installation
+
+</div>
+					<div class="card-body" style="color: blue">Updating KaiseApp<br>
+                                 KaiseApp business products<br>
+                                 Getting access to Business API<br>
+                                 Downloading KaiseApp Business<br>
+                                 Support for other operating systems</div>
+				</div>
+			</div>
+			<div class="col-sm-12 mt-3" id="question2">
+				<div class="card shadow-sm">
+					<div class="card-header" style="color: red">Question 2. Verification
+
+</div>
+					<div class="card-body" style="color: blue">Using two-step verification
+Using one KaiseApp account on multiple phones, or with multiple phone numbers.</div>
+				</div>
+			</div>
+			<div class="col-sm-12 mt-3" id="question3">
+				<div class="card shadow-sm">
+					<div class="card-header" style="color: red">Question 3. Account and Profile
+
+</div>
+					<div class="card-body" style="color: blue">Requesting your account information
+What is KaiseApp Business?
+Chatting with businesses
+What is a solution provider?
+Creating business names
+Lost and stolen phones
+Changing phone numbers and/or phones
+Changing the app's language
+Is it free to send messages over KaiseApp?
+Seeing the message "Your phone number is banned from using KaiseApp. Contact support for help."
+Seeing a contact, but someone else is using the account
+Seeing your phone number already in KaiseApp</div>
+				</div>
+			</div>
+			<div class="col-sm-12 mt-3" id="question4">
+				<div class="card shadow-sm">
+					<div class="card-header" style="color: red">Question 4 Chats
+
+</div>
+					<div class="card-body" style="color: blue">Formatting your messages
+Replying to messages
+Mentioning in a group
+Creating stickers for KaiseApp
+Understanding Last Seen and online
+Getting messages from businesses
+Disabling notifications from businesses
+Using Click to Chat</div>
+				</div>
+			</div>
+			<div class="col-sm-12 mt-3" id="question5">
+				<div class="card shadow-sm">
+					<div class="card-header" style="color: red ">Question 5. Security and Privacy
+
+</div>
+					<div class="card-body" style="color: blue">Being blocked by someone
+End-to-end encryption
+End-to-end encryption for business messages
+I received a notification indicating that my contact's security code has changed. What does this mean?
+Seeing "Waiting for this message. This may take a while."
+Hoax messages
+Tips to help prevent the spread of rumors and fake news
+Staying safe on WhatsApp
+Usage of your phone number and address book
+Who is providing your WhatsApp services
+Minimum age to use WhatsApp
+Which Terms of Service apply to you
+How to contact the Grievance Officer for India
+Information for Law Enforcement Authorities
+Global Suicide Hotline Resources
+What's California's Shine the Light law and how do we comply?div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section id="footer" style="background:black;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Company name</a> Design by <a class="text-green ml-2" href="http://techdesire.net/" target="_blank">TechDesire</a> </p>
+				</div>
+				</hr>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
+
